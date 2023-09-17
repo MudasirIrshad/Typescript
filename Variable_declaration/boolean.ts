@@ -1,9 +1,9 @@
-let yes:boolean=true;
-let no:boolean=false;
+let canVote:boolean=true;
+let cannotVote:boolean=false;
 let age:number=18
 if(age>=18){
-    console.log(`Can vote? ${yes}`);
+    console.log(`Can vote? ${canVote}`);
 }
 else{
-    console.log(`Can vote? ${no}`);    
+    console.log(`Can vote? ${cannotVote}`);    
 }
