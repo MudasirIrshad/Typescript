@@ -2,7 +2,7 @@
 // making "User" as a type which is assigned to the newUser object
 type User={
     name:string,
-    greet:()=> string //defining function with retrun type string
+    greet():string //defining function with retrun type string
 }
 
 let newUser:User={
