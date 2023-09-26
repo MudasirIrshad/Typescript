@@ -9,7 +9,7 @@ function deathTime(){
             setTimeout(()=>{
                 console.log("1 --------------!!!");
                 resolve(value)
-            },1000)
+            },2000)
         })
         return p2                   
     }).then((value)=>{  // ({}).then((value)=>{})    promise chain
@@ -17,7 +17,7 @@ function deathTime(){
             setTimeout(()=>{
                 console.log("2 --------------!!!");
                 resolve(value)
-            },1000)
+            },3000)
         })
         return p3
     }).then(()=>{
