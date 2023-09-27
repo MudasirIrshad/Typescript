@@ -1,1 +1,1 @@
-All Typescripts projects will be uploded here.
+All Typescript projects will be uploaded here.
